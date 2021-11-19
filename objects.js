@@ -100,31 +100,28 @@
 // Activity3
 const coffeeShop = {
     branch: "Peters shop",
-    drinks :{
-        coffee: "2",
-        drinks2 :{
-            tea: "4"
-        },
-        drinks3: {
-            hotChocolate: "6"
-        }
-    },
+    drinks :[
+        "Coffee",
+        2,
+        "Tea",
+        4,
+        "Hotchoc",
+        "6"  
+    ],
     food : [
-        {muffin: 1},
-        {apple: 3},
-        {sandwich: 5}
+        "Muffin",
+        1,
+        "Apple",
+        3,
+        "Sandwich",
+        5
     ]
 };
 
-// function getDrinks(itemName, coffeeShop){  
-//     const itemPrice = coffeeShop[itemName];  
-//     return itemPrice;
-// };
-// const coffee= getDrinks(drinks, coffeeShop);
-// const muffin= getPrice("muffin", coffeeShop);
+let drinksOrdered = `Your drink order is ${coffeeShop.drinks[0]}. It costs £${coffeeShop.drinks[1]}.`;
+let foodOrdered = `Your food order is ${coffeeShop.food[0]}. It costs £${coffeeShop.food[1]}.`;
 
-// let drinksOrdered = `Your order is ${coffeeShop.drinks[1][0]}`;
-let foodOrdered = `Your order is `;
+console.log(drinksOrdered);
+console.log(foodOrdered);
+console.log(`Total cost for your meal is £${coffeeShop.drinks[1] + coffeeShop.food[1]}.`);
 
-console.log(coffeeShop.drinks[0]);
-console.log("Blal");
