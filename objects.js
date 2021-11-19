@@ -120,8 +120,8 @@ const coffeeShop = {
 
 let drinksOrdered = `Your drink order is ${coffeeShop.drinks[0]}. It costs you £${coffeeShop.drinks[1]}.`;
 let foodOrdered = `Your food order is ${coffeeShop.food[0]}. It costs you £${coffeeShop.food[1]}.`;
+let totatlCost = `Total cost for your meal is £${coffeeShop.drinks[1] + coffeeShop.food[1]}.`;
 
-console.log(drinksOrdered);
-console.log(foodOrdered);
-console.log(`Total cost for your meal is £${coffeeShop.drinks[1] + coffeeShop.food[1]}.`);
+console.log(drinksOrdered,"\n",foodOrdered,"\n",totatlCost);
+
 
