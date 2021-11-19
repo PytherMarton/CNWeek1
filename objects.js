@@ -106,7 +106,7 @@ const coffeeShop = {
         "Tea",
         4,
         "Hotchoc",
-        "6"  
+        6  
     ],
     food : [
         "Muffin",
@@ -118,8 +118,8 @@ const coffeeShop = {
     ]
 };
 
-let drinksOrdered = `Your drink order is ${coffeeShop.drinks[0]}. It costs £${coffeeShop.drinks[1]}.`;
-let foodOrdered = `Your food order is ${coffeeShop.food[0]}. It costs £${coffeeShop.food[1]}.`;
+let drinksOrdered = `Your drink order is ${coffeeShop.drinks[0]}. It costs you £${coffeeShop.drinks[1]}.`;
+let foodOrdered = `Your food order is ${coffeeShop.food[0]}. It costs you £${coffeeShop.food[1]}.`;
 
 console.log(drinksOrdered);
 console.log(foodOrdered);
