@@ -127,3 +127,4 @@ const coffeeShop = {
 let foodOrdered = `Your order is `;
 
 console.log(coffeeShop.drinks[0]);
+console.log("Blal");
