@@ -1,3 +1,5 @@
+// JavaScript a function allows you to define a block of code, give it a name and then execute it as many times as you want. A function can be defined using function keyword and can be executed using () operator. A function can include one or more parameters.
+
 // let coffeeIsGrinding = false;
 
 // const pressGrindBeans = () => {
